@@ -126,7 +126,7 @@ Include a 1-line comment on what the forward curve implies (e.g. rate cuts price
 ─────────────────────────────
 9. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
 ─────────────────────────────
-Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all binding periods (3 months, 1 year, 3 years, 5 years, 10 years):
+Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all fixing periods (3 months, 1 year, 3 years, 5 years, 10 years):
 
 • Swedbank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 • Handelsbanken: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
@@ -136,7 +136,7 @@ Report the latest published genomsnittsränta (average actual mortgage rate) for
 • Länsförsäkringar bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 • Danske Bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 
-Note: Banks publish genomsnittsränta by the 5th banking day of each month for the previous month. State the reporting period (e.g. "February 2026") and flag any banks that are late. Use "n/a" for binding periods a bank does not offer.
+Note: Banks publish genomsnittsränta by the 5th banking day of each month for the previous month. State the reporting period (e.g. "February 2026") and flag any banks that are late. Use "n/a" for fixing periods a bank does not offer.
 
 ─────────────────────────────
 Sources: [2-6 credible sources with URLs where possible]
