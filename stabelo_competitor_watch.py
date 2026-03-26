@@ -29,8 +29,13 @@ COMPETITORS = [
     "Länsförsäkringar bank",
     "Danske Bank",
     "Skandiabanken",
-    "Bostadskreditinstitut",
     "Landshypotek",
+    "Avanza",
+    "Nordnet",
+    "ICA Banken",
+    "Ikanobanken",
+    "Ålandsbanken",
+    "Borgo",
 ]
 
 # ── PROMPT ────────────────────────────────────────────────────────────────────
@@ -66,17 +71,32 @@ FORMAT — output plain text only, no markdown headers with #, use these exact s
 • [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 48 hours."]
 
 ─────────────────────────────
-3. PRODUCT & DIGITAL DEVELOPMENTS
+3. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
+─────────────────────────────
+Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all binding periods (3 months, 1 year, 3 years, 5 years, 10 years):
+
+• Swedbank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• Handelsbanken: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• Nordea: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• SEB: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• SBAB: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• Länsförsäkringar bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• Danske Bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+
+Note: Banks publish genomsnittsränta by the 5th banking day of each month for the previous month. State the reporting period (e.g. "February 2026") and flag any banks that are late. Use "n/a" for binding periods a bank does not offer.
+
+─────────────────────────────
+4. PRODUCT & DIGITAL DEVELOPMENTS
 ─────────────────────────────
 • [New product launches, app updates, digital service changes, API/open banking moves, customer experience changes]
 
 ─────────────────────────────
-4. STRATEGIC SIGNALS
+5. STRATEGIC SIGNALS
 ─────────────────────────────
 • [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
 
 ─────────────────────────────
-5. STABELO IMPLICATIONS
+6. STABELO IMPLICATIONS
 ─────────────────────────────
 • [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities?]
 

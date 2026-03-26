@@ -4,7 +4,7 @@ Automated daily competitive intelligence report for the Stabelo leadership team.
 
 ## Competitors monitored
 
-Swedbank, Handelsbanken, Nordea, SEB, SBAB, Länsförsäkringar bank, Danske Bank, Skandiabanken, Bostadskreditinstitut, Landshypotek
+Swedbank, Handelsbanken, Nordea, SEB, SBAB, Länsförsäkringar bank, Danske Bank, Skandiabanken, Landshypotek, Avanza, Nordnet, ICA Banken, Ikanobanken, Ålandsbanken, Borgo
 
 ## How it works
 
