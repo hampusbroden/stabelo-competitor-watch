@@ -135,6 +135,7 @@ Report the latest published genomsnittsränta (average actual mortgage rate) for
 • SBAB: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 • Länsförsäkringar bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 • Danske Bank: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
+• Landshypotek: 3m: [rate] | 1y: [rate] | 3y: [rate] | 5y: [rate] | 10y: [rate]
 
 Note: Banks publish genomsnittsränta by the 5th banking day of each month for the previous month. State the reporting period (e.g. "February 2026") and flag any banks that are late. Use "n/a" for fixing periods a bank does not offer.
 
@@ -186,7 +187,7 @@ def generate_report() -> str:
         try:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=8000,
+                max_tokens=16000,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 system=SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": USER_PROMPT}],
@@ -198,6 +199,9 @@ def generate_report() -> str:
             wait = 2 ** attempt
             print(f"⚠️  API error (attempt {attempt}/{MAX_RETRIES}), retrying in {wait}s...")
             time.sleep(wait)
+
+    if response.stop_reason == "max_tokens":
+        print("⚠️  Response was truncated (hit max_tokens limit)")
 
     # Extract text blocks from response (web_search tool produces multiple block types)
     text_parts = [block.text for block in response.content if hasattr(block, "text")]
