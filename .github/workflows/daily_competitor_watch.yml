@@ -1,0 +1,31 @@
+name: Stabelo Competitor Watch
+
+on:
+  schedule:
+    # 07:00 Stockholm time = 06:00 UTC (winter) / 05:00 UTC (summer)
+    # Using 05:00 UTC to cover summer time (CEST). Adjust to 06:00 for CET (winter).
+    - cron: '0 5 * * 1-5'   # Weekdays only
+
+  workflow_dispatch:         # Allows manual trigger from GitHub UI
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run competitor watch script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python stabelo_competitor_watch.py
