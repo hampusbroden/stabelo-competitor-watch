@@ -68,7 +68,7 @@ FORMAT — output plain text only, no markdown headers with #, use these exact s
 ─────────────────────────────
 2. MARKET RATES
 ─────────────────────────────
-Report yesterday's closing rates:
+Report yesterday's closing rates. For STIBOR, use swfbf.se/stibor/rates/ as the primary source:
 • 3M STIBOR: [rate]
 • 1Y SEK Swap: [rate]
 • 3Y SEK Swap: [rate]
