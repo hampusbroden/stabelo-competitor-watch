@@ -66,34 +66,45 @@ FORMAT — output plain text only, no markdown headers with #, use these exact s
 • [repeat for each noteworthy development, typically 3-6 items]
 
 ─────────────────────────────
-2. RATE & PRICING MOVEMENTS
+2. MARKET RATES
 ─────────────────────────────
-• [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 48 hours."]
+Report yesterday's closing rates:
+• 3M STIBOR: [rate]
+• 1Y SEK Swap: [rate]
+• 3Y SEK Swap: [rate]
+• 5Y SEK Swap: [rate]
+• 10Y SEK Swap: [rate]
+Include direction (up/down/unchanged) vs previous day and any notable trend context.
 
 ─────────────────────────────
-3. PRODUCT & DIGITAL DEVELOPMENTS
+3. COMPETITOR RATE & PRICING MOVEMENTS
+─────────────────────────────
+• [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 24 hours."]
+
+─────────────────────────────
+4. PRODUCT & DIGITAL DEVELOPMENTS
 ─────────────────────────────
 • [New product launches, app updates, digital service changes, API/open banking moves, customer experience changes]
 
 ─────────────────────────────
-4. STRATEGIC SIGNALS
+5. STRATEGIC SIGNALS
 ─────────────────────────────
 • [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
 
 ─────────────────────────────
-5. CUSTOMER SENTIMENT & DISCUSSIONS
+6. CUSTOMER SENTIMENT & DISCUSSIONS
 ─────────────────────────────
 Monitor what customers are saying about our competitors on social platforms and review sites (Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store/Google Play reviews, YouTube comments, Quora, Discord, forums, etc.):
 • [Competitor]: [Summary of notable customer complaints, praise, or trending discussions — with platform source]
 • [Only include genuine, recent discussions. If nothing notable, state "No significant customer discussions detected."]
 
 ─────────────────────────────
-6. STABELO IMPLICATIONS
+7. STABELO IMPLICATIONS
 ─────────────────────────────
 • [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
 
 ─────────────────────────────
-7. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
+8. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
 ─────────────────────────────
 Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all binding periods (3 months, 1 year, 3 years, 5 years, 10 years):
 
