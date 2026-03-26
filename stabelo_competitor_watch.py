@@ -145,7 +145,7 @@ Sources: [2-6 credible sources with URLs where possible]
 
 RULES:
 - Cover only real news and developments from the past 24 hours — do NOT repeat stories that were already covered yesterday. Focus on what is genuinely new today. The genomsnittsränta section is the exception: always report the latest published rates regardless of when they were first reported.
-- Search in both Swedish and English — many sources are in Swedish (e.g. di.se, svd.se, breakit.se, realtid.se, fastighetstidningen.se)
+- The entire report MUST be written in English. Search sources in both Swedish and English (many sources are in Swedish, e.g. di.se, svd.se, breakit.se, realtid.se, fastighetstidningen.se), but always translate and write the report in English
 - If a competitor has no news, do not force it — only report genuine developments
 - Every insight should connect back to what it means for Stabelo
 - Be concise but complete — do not cut off mid-sentence. Use as many words as needed to cover all 9 sections properly
