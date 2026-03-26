@@ -149,6 +149,7 @@ RULES:
 - Be concise but complete — do not cut off mid-sentence. Use as many words as needed to cover all 9 sections properly
 - No markdown bold, no bullet nesting, no emojis except the section headers above
 - Output the time as 07:00 in the header
+- Do NOT include any internal reasoning, commentary, or preamble before or within the report. Start directly with the 🔍 header. No "Let me search...", "Now I have enough...", or similar text
 """.format(competitors="\n".join(f"- {c}" for c in COMPETITORS))
 
 USER_PROMPT = """Search for the latest news, announcements, and developments from the following Swedish mortgage providers over the past 24 hours. Only include genuinely new stories — do not repeat anything that would have appeared in yesterday's report:
@@ -203,6 +204,12 @@ def generate_report() -> str:
     report = "\n".join(text_parts).strip()
     if not report:
         raise RuntimeError("Claude returned no text content")
+
+    # Strip any preamble before the actual report header
+    marker = "🔍"
+    if marker in report:
+        report = report[report.index(marker):]
+
     return report
 
 
