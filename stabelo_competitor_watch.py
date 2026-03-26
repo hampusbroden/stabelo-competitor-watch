@@ -104,7 +104,7 @@ Note: Banks publish genomsnittsränta by the 5th banking day of each month for t
 Sources: [2-6 credible sources with URLs where possible]
 
 RULES:
-- Cover only real news and developments from the past 48 hours
+- Cover only real news and developments from the past 24 hours — do NOT repeat stories that were already covered yesterday. Focus on what is genuinely new today. The genomsnittsränta section is the exception: always report the latest published rates regardless of when they were first reported.
 - Search in both Swedish and English — many sources are in Swedish (e.g. di.se, svd.se, breakit.se, realtid.se, fastighetstidningen.se)
 - If a competitor has no news, do not force it — only report genuine developments
 - Every insight should connect back to what it means for Stabelo
@@ -113,7 +113,7 @@ RULES:
 - Output the time as 07:00 in the header
 """.format(competitors="\n".join(f"- {c}" for c in COMPETITORS))
 
-USER_PROMPT = """Search for the latest news, announcements, and developments from the following Swedish mortgage providers over the past 48 hours:
+USER_PROMPT = """Search for the latest news, announcements, and developments from the following Swedish mortgage providers over the past 24 hours. Only include genuinely new stories — do not repeat anything that would have appeared in yesterday's report:
 
 {competitors}
 
