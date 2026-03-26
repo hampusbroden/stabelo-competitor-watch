@@ -66,7 +66,34 @@ FORMAT — output plain text only, no markdown headers with #, use these exact s
 • [repeat for each noteworthy development, typically 3-6 items]
 
 ─────────────────────────────
-2. MARKET RATES
+2. COMPETITOR RATE & PRICING MOVEMENTS
+─────────────────────────────
+• [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 24 hours."]
+
+─────────────────────────────
+3. PRODUCT & DIGITAL DEVELOPMENTS
+─────────────────────────────
+• [New product launches, app updates, digital service changes, API/open banking moves, customer experience changes]
+
+─────────────────────────────
+4. STRATEGIC SIGNALS
+─────────────────────────────
+• [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
+
+─────────────────────────────
+5. CUSTOMER SENTIMENT & DISCUSSIONS
+─────────────────────────────
+Monitor what customers are saying about our competitors on social platforms and review sites (Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store/Google Play reviews, YouTube comments, Quora, Discord, forums, etc.):
+• [Competitor]: [Summary of notable customer complaints, praise, or trending discussions — with platform source]
+• [Only include genuine, recent discussions. If nothing notable, state "No significant customer discussions detected."]
+
+─────────────────────────────
+6. STABELO IMPLICATIONS
+─────────────────────────────
+• [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
+
+─────────────────────────────
+7. MARKET RATES
 ─────────────────────────────
 Report yesterday's closing rates. For STIBOR, use swfbf.se/stibor/rates/ as the primary source:
 • 3M STIBOR: [rate]
@@ -77,7 +104,7 @@ Report yesterday's closing rates. For STIBOR, use swfbf.se/stibor/rates/ as the 
 Include direction (up/down/unchanged) vs previous day and any notable trend context.
 
 ─────────────────────────────
-3. STIBOR FORWARD RATES (IMM-FRA)
+8. STIBOR FORWARD RATES (IMM-FRA)
 ─────────────────────────────
 Report the latest 3M STIBOR forward rate agreements (FRAs) from Nasdaq Nordic (nasdaq.com/sv/european-market-activity/fixed-income-derivatives, Sweden tab, IMM-FRA segment). List all available contracts with their bid/ask mid-rates and expiry dates:
 
@@ -95,33 +122,6 @@ Report the latest 3M STIBOR forward rate agreements (FRAs) from Nasdaq Nordic (n
 • IMM_FRA_2903 (Mar 2029): [mid rate]
 
 Include a 1-line comment on what the forward curve implies (e.g. rate cuts priced in, flattening, steepening).
-
-─────────────────────────────
-4. COMPETITOR RATE & PRICING MOVEMENTS
-─────────────────────────────
-• [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 24 hours."]
-
-─────────────────────────────
-5. PRODUCT & DIGITAL DEVELOPMENTS
-─────────────────────────────
-• [New product launches, app updates, digital service changes, API/open banking moves, customer experience changes]
-
-─────────────────────────────
-6. STRATEGIC SIGNALS
-─────────────────────────────
-• [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
-
-─────────────────────────────
-7. CUSTOMER SENTIMENT & DISCUSSIONS
-─────────────────────────────
-Monitor what customers are saying about our competitors on social platforms and review sites (Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store/Google Play reviews, YouTube comments, Quora, Discord, forums, etc.):
-• [Competitor]: [Summary of notable customer complaints, praise, or trending discussions — with platform source]
-• [Only include genuine, recent discussions. If nothing notable, state "No significant customer discussions detected."]
-
-─────────────────────────────
-8. STABELO IMPLICATIONS
-─────────────────────────────
-• [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
 
 ─────────────────────────────
 9. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
