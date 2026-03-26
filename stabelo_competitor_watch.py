@@ -146,7 +146,7 @@ RULES:
 - Search in both Swedish and English — many sources are in Swedish (e.g. di.se, svd.se, breakit.se, realtid.se, fastighetstidningen.se)
 - If a competitor has no news, do not force it — only report genuine developments
 - Every insight should connect back to what it means for Stabelo
-- Keep the whole report under 1000 words
+- Be concise but complete — do not cut off mid-sentence. Use as many words as needed to cover all 9 sections properly
 - No markdown bold, no bullet nesting, no emojis except the section headers above
 - Output the time as 07:00 in the header
 """.format(competitors="\n".join(f"- {c}" for c in COMPETITORS))
@@ -185,7 +185,7 @@ def generate_report() -> str:
         try:
             response = client.messages.create(
                 model=MODEL,
-                max_tokens=3000,
+                max_tokens=8000,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 system=SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": USER_PROMPT}],
