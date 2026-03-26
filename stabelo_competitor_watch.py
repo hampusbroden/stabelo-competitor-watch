@@ -77,34 +77,54 @@ Report yesterday's closing rates:
 Include direction (up/down/unchanged) vs previous day and any notable trend context.
 
 ─────────────────────────────
-3. COMPETITOR RATE & PRICING MOVEMENTS
+3. STIBOR FORWARD RATES (IMM-FRA)
+─────────────────────────────
+Report the latest 3M STIBOR forward rate agreements (FRAs) from Nasdaq Nordic (nasdaq.com/sv/european-market-activity/fixed-income-derivatives, Sweden tab, IMM-FRA segment). List all available contracts with their bid/ask mid-rates and expiry dates:
+
+• IMM_FRA_2606 (Jun 2026): [mid rate]
+• IMM_FRA_2609 (Sep 2026): [mid rate]
+• IMM_FRA_2612 (Dec 2026): [mid rate]
+• IMM_FRA_2703 (Mar 2027): [mid rate]
+• IMM_FRA_2706 (Jun 2027): [mid rate]
+• IMM_FRA_2709 (Sep 2027): [mid rate]
+• IMM_FRA_2712 (Dec 2027): [mid rate]
+• IMM_FRA_2803 (Mar 2028): [mid rate]
+• IMM_FRA_2806 (Jun 2028): [mid rate]
+• IMM_FRA_2809 (Sep 2028): [mid rate]
+• IMM_FRA_2812 (Dec 2028): [mid rate]
+• IMM_FRA_2903 (Mar 2029): [mid rate]
+
+Include a 1-line comment on what the forward curve implies (e.g. rate cuts priced in, flattening, steepening).
+
+─────────────────────────────
+4. COMPETITOR RATE & PRICING MOVEMENTS
 ─────────────────────────────
 • [Any announced rate changes, campaign offers, pricing moves, or cashback deals from competitors. If nothing notable, state "No significant pricing moves detected in the last 24 hours."]
 
 ─────────────────────────────
-4. PRODUCT & DIGITAL DEVELOPMENTS
+5. PRODUCT & DIGITAL DEVELOPMENTS
 ─────────────────────────────
 • [New product launches, app updates, digital service changes, API/open banking moves, customer experience changes]
 
 ─────────────────────────────
-5. STRATEGIC SIGNALS
+6. STRATEGIC SIGNALS
 ─────────────────────────────
 • [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
 
 ─────────────────────────────
-6. CUSTOMER SENTIMENT & DISCUSSIONS
+7. CUSTOMER SENTIMENT & DISCUSSIONS
 ─────────────────────────────
 Monitor what customers are saying about our competitors on social platforms and review sites (Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store/Google Play reviews, YouTube comments, Quora, Discord, forums, etc.):
 • [Competitor]: [Summary of notable customer complaints, praise, or trending discussions — with platform source]
 • [Only include genuine, recent discussions. If nothing notable, state "No significant customer discussions detected."]
 
 ─────────────────────────────
-7. STABELO IMPLICATIONS
+8. STABELO IMPLICATIONS
 ─────────────────────────────
 • [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
 
 ─────────────────────────────
-8. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
+9. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
 ─────────────────────────────
 Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all binding periods (3 months, 1 year, 3 years, 5 years, 10 years):
 
