@@ -96,9 +96,16 @@ Note: Banks publish genomsnittsränta by the 5th banking day of each month for t
 • [Partnerships, acquisitions, leadership changes, hiring patterns, regulatory filings, earnings highlights, market share data]
 
 ─────────────────────────────
-6. STABELO IMPLICATIONS
+6. CUSTOMER SENTIMENT & DISCUSSIONS
 ─────────────────────────────
-• [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities?]
+Monitor what customers are saying about our competitors on social platforms and review sites (Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store/Google Play reviews, YouTube comments, Quora, Discord, forums, etc.):
+• [Competitor]: [Summary of notable customer complaints, praise, or trending discussions — with platform source]
+• [Only include genuine, recent discussions. If nothing notable, state "No significant customer discussions detected."]
+
+─────────────────────────────
+7. STABELO IMPLICATIONS
+─────────────────────────────
+• [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
 
 ─────────────────────────────
 Sources: [2-6 credible sources with URLs where possible]
@@ -125,6 +132,8 @@ Search terms to use (combine competitor names with these):
 - Swedish mortgage market news
 
 Also check Swedish business news sources: di.se, svd.se/naringsliv, breakit.se, realtid.se, fastighetstidningen.se, privataaffarer.se
+
+Also search for customer discussions and reviews about these competitors on: Reddit, Facebook Groups, Twitter/X, LinkedIn, Trustpilot, App Store reviews, Google Play reviews, YouTube comments, Quora, Discord, and Swedish forums (e.g. Flashback, Familjeliv). Look for complaints, praise, trending threads, or sentiment shifts.
 
 Then produce today's Stabelo Competitor Watch report following the exact format in your instructions.
 
