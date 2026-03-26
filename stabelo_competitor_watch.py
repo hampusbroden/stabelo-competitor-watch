@@ -195,10 +195,11 @@ def generate_report() -> str:
             )
             break
         except anthropic.APIStatusError as e:
-            if attempt == MAX_RETRIES or e.status_code < 500:
+            retryable = e.status_code >= 500 or e.status_code == 429
+            if attempt == MAX_RETRIES or not retryable:
                 raise
-            wait = 2 ** attempt
-            print(f"⚠️  API error (attempt {attempt}/{MAX_RETRIES}), retrying in {wait}s...")
+            wait = 60 if e.status_code == 429 else 2 ** attempt
+            print(f"⚠️  API error {e.status_code} (attempt {attempt}/{MAX_RETRIES}), retrying in {wait}s...")
             time.sleep(wait)
 
     if response.stop_reason == "max_tokens":
