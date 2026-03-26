@@ -10,6 +10,7 @@ import urllib.request
 import urllib.error
 import json
 import os
+import re
 import time
 from datetime import datetime
 
@@ -213,6 +214,29 @@ def generate_report() -> str:
     marker = "🔍"
     if marker in report:
         report = report[report.index(marker):]
+
+    # Clean up stray line breaks within paragraphs.
+    # Preserve intentional structure: blank lines, bullet points, section dividers, headers
+    cleaned_lines = []
+    for line in report.split("\n"):
+        stripped = line.strip()
+        # Keep blank lines, dividers, bullets, numbered items, emoji headers as-is
+        if (not stripped or
+            stripped.startswith("─") or
+            stripped.startswith("•") or
+            stripped.startswith("🔍") or
+            stripped.startswith("📅") or
+            re.match(r"^\d+\.", stripped) or
+            stripped.startswith("Sources:") or
+            stripped.startswith("Note:")):
+            cleaned_lines.append(line)
+        else:
+            # Merge continuation lines with previous non-empty line
+            if cleaned_lines and cleaned_lines[-1].strip() and not cleaned_lines[-1].strip().startswith("─"):
+                cleaned_lines[-1] = cleaned_lines[-1].rstrip() + " " + stripped
+            else:
+                cleaned_lines.append(line)
+    report = "\n".join(cleaned_lines)
 
     return report
 
