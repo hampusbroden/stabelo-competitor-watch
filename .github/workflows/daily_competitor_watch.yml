@@ -1,4 +1,5 @@
 name: Stabelo Competitor Watch
+# Daily competitive intelligence report
 
 on:
   schedule:
