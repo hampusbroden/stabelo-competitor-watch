@@ -94,18 +94,7 @@ Monitor what customers are saying about our competitors on social platforms and 
 • [2-3 concrete takeaways: What should Stabelo consider doing in response? Any threats or opportunities? Include insights from customer sentiment where relevant.]
 
 ─────────────────────────────
-7. MARKET RATES
-─────────────────────────────
-Report yesterday's closing rates. For STIBOR, use swfbf.se/stibor/rates/ as the primary source:
-• 3M STIBOR: [rate]
-• 1Y SEK Swap: [rate]
-• 3Y SEK Swap: [rate]
-• 5Y SEK Swap: [rate]
-• 10Y SEK Swap: [rate]
-Include direction (up/down/unchanged) vs previous day and any notable trend context.
-
-─────────────────────────────
-8. STIBOR FORWARD RATES (IMM-FRA)
+7. STIBOR FORWARD RATES (IMM-FRA)
 ─────────────────────────────
 Report the latest 3M STIBOR forward rate agreements (FRAs) from Nasdaq Nordic (nasdaq.com/sv/european-market-activity/fixed-income-derivatives, Sweden tab, IMM-FRA segment). List all available contracts with their bid/ask mid-rates and expiry dates:
 
@@ -125,7 +114,7 @@ Report the latest 3M STIBOR forward rate agreements (FRAs) from Nasdaq Nordic (n
 Include a 1-line comment on what the forward curve implies (e.g. rate cuts priced in, flattening, steepening).
 
 ─────────────────────────────
-9. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
+8. GENOMSNITTSRÄNTA (AVERAGE MORTGAGE RATES)
 ─────────────────────────────
 Report the latest published genomsnittsränta (average actual mortgage rate) for each of these banks across all fixing periods (3 months, 1 year, 3 years, 5 years, 10 years):
 
@@ -148,7 +137,7 @@ RULES:
 - The entire report MUST be written in English. Search sources in both Swedish and English (many sources are in Swedish, e.g. di.se, svd.se, breakit.se, realtid.se, fastighetstidningen.se), but always translate and write the report in English
 - If a competitor has no news, do not force it — only report genuine developments
 - Every insight should connect back to what it means for Stabelo
-- Be concise but complete — do not cut off mid-sentence. Use as many words as needed to cover all 9 sections properly
+- Be concise but complete — do not cut off mid-sentence. Use as many words as needed to cover all 8 sections properly
 - No markdown bold, no bullet nesting, no emojis except the section headers above
 - Output the time as 07:00 in the header
 - Do NOT include any internal reasoning, commentary, or preamble before or within the report. Start directly with the 🔍 header. No "Let me search...", "Now I have enough...", or similar text
